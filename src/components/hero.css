@@ -1,23 +1,4 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
-
-.hero-main {
-  align-items: center;
-  display: flex;
-  gap: 3rem;
-  justify-content: center;
-  position: relative;
-}
-.hero-text {
-    display: flex;
-    flex-direction: column;
-    max-width: 50rem;
-    position: relative;
-}
 
 .hero-img {
     -webkit-animation: morph 8s ease-in-out infinite;
@@ -27,10 +8,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     border: 3px solid #2d2e32;
-    height: 35rem;
     position: relative;
     transition: all 1s ease-in-out;
-    width: 35rem;
+    width: 100%;
 }
 
 @keyframes morph {
