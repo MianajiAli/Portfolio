@@ -18,7 +18,7 @@ const About = () => {
                     <div className='text-center w-[90%] lg:w-[45%] pt-7 lg:pt-0'>
                         <h3 className='text-lg text-secondary font-Poppins7 uppercase'>About me</h3>
                         <h4 className='text-2xl text-primary font-Poppins7 pt-1 lg:pt-0'>Front-end Developer <br /> based in Zanjan, Iran 📍</h4>
-                        <p className='text-s text-primaryVa font-Poppins4 pt-4'>Hey, my name is Stefan, and I'm a Frontend Developer. My passion is to create and develop a clean UI/UX for my users.<br />My main stack currently is React/Next.js in combination with Tailwind CSS and TypeScript.</p>
+                        <p className='text-s text-primaryVa font-Poppins4 pt-4'>Hey, my name is Ali, and I'm a Frontend Developer. My passion is to create and develop a clean UI/UX for my users.<br />My main stack currently is React/Next.js in combination with Tailwind CSS and TypeScript.</p>
                     </div>
                 </div>
             </div>
