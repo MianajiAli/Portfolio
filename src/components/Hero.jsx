@@ -2,7 +2,6 @@ import React from 'react'
 import waving from '../assets/waving.png'
 import {TbBrandGithub, TbBrandInstagram} from 'react-icons/tb'
 import './hero.css'
-import photo from '../assets/mianaji.png'
 
 const Hero = () => {
   return (
@@ -36,7 +35,7 @@ const Hero = () => {
         </div>
       </div>
       <div className='w-[20rem] sm: lg:w-[37%] font-Poppins5 text-xl text-primary relative'>
-        <img className='hero-img ' src={photo} alt='/' />
+        <img className='hero-img text-white' alt='/' />
         <div className='bg-blue-800 opacity-40 absolute left-3 bottom-[10px]   p-9 rounded-full animate-ping'></div>
         <div className='bg-secondary  absolute left-3 bottom-[10px]   p-9 rounded-full '></div>
       </div>
